@@ -1,50 +1,33 @@
 <p align="center">
-<img src="https://i.imgur.com/Clzj7Xs.png" alt="osTicket logo"/>
+<img src="https://i.imgur.com/HdtbaYI.png" height="30%" width="60%" alt="Kali Linux logo"/>
 </p>
 
-<h1>osTicket - Ticket Lifecycle: Intake Through Resolution</h1>
-This tutorial outlines the lifecycle of a ticket from intake to resolution within the open-source help desk ticketing system osTicket.<br />
+<h1>Kali Linux - Configure the firewall using ufw </h1>
+This tutorial outlines a firewall, you can prevent unauthorized access to your network and block common cyberattacks. <br />
 
 
 <h2>Environments and Technologies Used</h2>
 
-- Microsoft Azure (Virtual Machines/Computer)
-- Remote Desktop
-- Internet Information Services (IIS)
+- Oracle VirtualBox (Virtual Machines/Computer)
+- Kali Linux
 
 <h2>Operating Systems Used </h2>
 
 - Windows 10</b> (21H2)
 
-<h2>Ticket Lifecycle Stages</h2>
-
-- Intake
-- Assignment and Communication
-- Working the Issue
-- Resolution
-
-<h2>Lifecycle Stages</h2>
+<h2>Hardening Stages</h2>
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://imgur.com/p8ZthgX.png" height="80%" width="80%" alt="Firewall Steps"/>
 </p>
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+  
+1. To install ufw, type sudo apt install ufw, and then press Enter. Type your password if prompted, and then press Enter.
+2. The terminal window displays the progress of the installation.
+3. To check the firewall’s status, type sudo ufw status, and then press Enter.
+4. To enable the firewall, type sudo ufw enable, and then press Enter.
+5. Recheck the firewall’s status to confirm that the firewall is enabled. To do so, type sudo ufw status, and then press Enter.
+
 </p>
 <br />
 
-<p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-</p>
-<p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-</p>
-<br />
-
-<p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-</p>
-<p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-</p>
-<br />
